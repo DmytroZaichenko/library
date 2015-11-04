@@ -1,19 +1,16 @@
 package ext;
 
-/**
- * Created by admin on 04.11.2015.
- */
 public class Tank {
 
     private Colors colors;
-    private String crew;
+    private int crew;
     private int maxSpeed;
 
     public Tank() {
 
     }
 
-    public Tank(Colors colors, String crew, int maxSpeed) {
+    public Tank(Colors colors, int crew, int maxSpeed) {
         this.colors = colors;
         this.crew = crew;
         this.maxSpeed = maxSpeed;
@@ -27,11 +24,11 @@ public class Tank {
         this.colors = colors;
     }
 
-    public String getCrew() {
+    public int getCrew() {
         return crew;
     }
 
-    public void setCrew(String crew) {
+    public void setCrew(int crew) {
         this.crew = crew;
     }
 
@@ -41,5 +38,12 @@ public class Tank {
 
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
+    }
+
+    public void printInfo(Tank tank){
+
+        System.out.print("tank colors: "+tank.getColors()+
+                " max speed: "+tank.getMaxSpeed()+
+                " crew: "+tank.getCrew()+"\n");
     }
 }

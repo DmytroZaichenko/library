@@ -1,8 +1,5 @@
 package ext;
 
-/**
- * Created by admin on 04.11.2015.
- */
 public class Tiger extends Tank {
     private int armor;
 
@@ -12,5 +9,11 @@ public class Tiger extends Tank {
 
     public void setArmor(int armor) {
         this.armor = armor;
+    }
+
+    @Override
+    public void printInfo(Tank tank) {
+        super.printInfo(tank);
+        System.out.print("Armor: "+getArmor());
     }
 }
