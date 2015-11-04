@@ -43,7 +43,7 @@ public class Tank {
     public void printInfo(Tank tank){
 
         System.out.print("tank colors: "+tank.getColors()+
-                " max speed: "+tank.getMaxSpeed()+
-                " crew: "+tank.getCrew()+"\n");
+                         " max speed: "+tank.getMaxSpeed()+
+                         " crew: "+tank.getCrew());
     }
 }

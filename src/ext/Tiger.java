@@ -14,6 +14,6 @@ public class Tiger extends Tank {
     @Override
     public void printInfo(Tank tank) {
         super.printInfo(tank);
-        System.out.print("Armor: "+getArmor());
+        System.out.print(" armor: "+getArmor());
     }
 }
