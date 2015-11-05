@@ -3,6 +3,12 @@ package less2.frame7;
 public class Tiger extends Tank {
     private int armor;
 
+    public Tiger(String name, Colors colors, int crew, int maxSpeed, int armor) {
+        super(name, colors, crew, maxSpeed);
+        this.armor = armor;
+    }
+
+
     public int getArmor() {
         return armor;
     }

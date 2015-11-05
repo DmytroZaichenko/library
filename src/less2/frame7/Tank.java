@@ -11,10 +11,11 @@ public class Tank {
 
     }
 
-    public Tank(Colors colors, int crew, int maxSpeed) {
+    public Tank(String name, Colors colors, int crew, int maxSpeed) {
         this.colors = colors;
         this.crew = crew;
         this.maxSpeed = maxSpeed;
+        this.name = name;
     }
 
     public Tank(String name){
