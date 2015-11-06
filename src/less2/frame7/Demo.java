@@ -15,7 +15,7 @@ public class Demo {
 //
 //        bt7.printInfo(bt7);
 
-        T34 t34 = new T34(Colors.BLACK,4,50);
+        T34 t34 = new T34("T34",Colors.BLACK,4,50);
 //        t34.setColors(Colors.BLACK);
 //        t34.setMaxSpeed(50);
 //        t34.setCrew(4);

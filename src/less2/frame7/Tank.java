@@ -56,12 +56,12 @@ public class Tank {
 
     public void printInfo(Tank tank){
 
-        System.out.print("Name :"+tank.getName()+" colors: ["+tank.getColors()+"] "+
+        System.out.print("Tank name: "+tank.getName()+" colors: ["+tank.getColors()+"] "+
                          "max speed: ["+tank.getMaxSpeed()+"] "+
                          "crew: ["+tank.getCrew()+"] \n");
     }
 
     public void move(Tank tank){
-       // System.out.print();
+        System.out.print("Move ");
     }
 }
