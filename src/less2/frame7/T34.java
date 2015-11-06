@@ -7,7 +7,13 @@ public class T34 extends Tank {
     }
 
     @Override
-    public void move(Tank tank) {
-        System.out.println("Move tank ");
+    public void move() {
+        super.move();
+        System.out.println(toString());
+    }
+
+    @Override
+    public String toString() {
+        return "T34";
     }
 }

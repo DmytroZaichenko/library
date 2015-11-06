@@ -7,30 +7,17 @@ public class Demo {
     public static void main(String[] args) {
 
 
-//        BT7 bt7 = new BT7();
-//
-//        bt7.setColors(Colors.BLACK);
-//        bt7.setMaxSpeed(70);
-//        bt7.setCrew(3);
-//
-//        bt7.printInfo(bt7);
+        BT7 bt7 = new BT7("BT7",Colors.BLACK,3,72);
+        bt7.printInfo(bt7);
+        bt7.move();
 
         T34 t34 = new T34("T34",Colors.BLACK,4,50);
-//        t34.setColors(Colors.BLACK);
-//        t34.setMaxSpeed(50);
-//        t34.setCrew(4);
-
         t34.printInfo(t34);
+        t34.move();
 
-
-
-//        Tiger tiger = new Tiger();
-//        tiger.setColors(Colors.GREEN);
-//        tiger.setMaxSpeed(30);
-//        tiger.setCrew(5);
-//
-//        tiger.setArmor(1);
-//        tiger.printInfo(tiger);
+        Tiger tiger = new Tiger("Tiger",Colors.GREEN,4,30,1);
+        tiger.printInfo(tiger);
+        tiger.move();
 
 
     }

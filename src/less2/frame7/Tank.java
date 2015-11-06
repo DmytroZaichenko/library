@@ -61,7 +61,7 @@ public class Tank {
                          "crew: ["+tank.getCrew()+"] \n");
     }
 
-    public void move(Tank tank){
+    public void move(){
         System.out.print("Move ");
     }
 }
